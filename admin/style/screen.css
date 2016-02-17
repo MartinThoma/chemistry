@@ -1,0 +1,409 @@
+* {
+    margin		: 0;
+    padding		: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family		: sans-serif;
+    font-size		: 16px;
+    margin		: 10px 10px 0;
+}
+input {
+    height		: 25px;
+    background-color	: #fff;
+    border		: 1px solid #ababab;
+    font-size		: 14px;
+    padding-top		: 2px;
+    margin-top		: 1px;
+    
+}
+textarea {
+    border		: 1px solid #ababab;
+    padding-top		: 2px;
+    margin-top		: 1px;
+    float		: left;	
+}
+select {
+    float		: left;
+}
+fieldset {
+    padding		: 5px;
+    margin		: 7px;
+}
+
+hr {
+    margin		: 10px;
+    width		: 90%;
+    border		: 0;
+    border-top		: solid 1px #9e9e9e;
+    border-bottom	: transparent;
+}
+ul, ol {
+    padding-left	: 20px;
+    padding-bottom	: 10px;
+    list-style-position	: inside;
+}
+ul li {
+    list-style		: url(li.gif);
+    margin-left		: 15px;
+}
+object {
+    padding-left	: 30px;
+}
+p, table {
+    padding		: 10px;
+    margin-left		: 15px;
+}
+label {
+    float		: left;
+    clear		: both;
+    display		: block;
+    width		: 180px;
+    margin-bottom	: 10px;
+    padding-left	: 10px;
+}
+img {
+    border		: 0px;
+}
+#banner {
+    height		: 136px;
+    width		: 894px;
+    position		: relative;
+    top			: 40px;
+    left		: 40px;
+    border		: 2px solid #dedede;
+    border-left		: 4px solid #dedede;
+}
+#box, #news, #forum {
+    position		: relative;
+    left		: 40px;
+    width		: 250px;
+    border		: 2px solid #dedede;
+    border-left		: 4px solid #dedede;
+    padding		: 5px;
+    background-color	: #f5f2e3;
+}
+#box {top: 80px;}
+#news {top: 90px;}
+
+#news ul li {
+    list-style		: url(list.gif);
+}
+#news a {
+    text-decoration	: none;
+    color		: #900;
+    border		: 0;
+}
+#news a:hover {
+    color		: red;
+}
+#forum {
+    top			: 110px;
+}
+
+#content {
+    position		: absolute;
+    top			: 220px;
+    left		: 310px;
+    background-color	: #fff;
+    width		: 626px;
+    border		: 2px solid #dedede;
+}
+#content input {float	: left;}
+#content h1 {font-size	: 20px;}
+#content h2 {font-size	: 18px;}
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+    color		: #900;
+}
+p.long:first-letter{
+    font-size		: 3em;
+    float		: left;
+    font-style		: italic;
+    color		: #b0ab8f;
+    margin-top		: 2px;
+    margin-right	: 2px;
+    margin-bottom	: -5px;
+}
+
+p#autor {
+    font-style		: italic;
+    padding		: 0 0 0 35px;
+    width		: 591px;
+    margin		: 15px 0 15px 0;
+    border		: 1px solid #dedede;
+    background		: #dedede;
+}
+
+p#translator {
+    font-style		: italic;
+    padding		: 0 0 0 35px;
+    width		: 591px;
+    margin		: 15px 0 15px 0;
+    border		: 1px solid #b1e28e;
+    background		: #b1e28e;
+}
+
+p#sources {
+    border-top		: 1px solid #dedede;
+    padding-left	: 25px;
+}
+#content a {
+    text-decoration	: none;
+    border-bottom	: 1px dashed #900;
+}
+#content a:visited {
+    color		: purple;
+}
+#content a:hover {
+    color		: red;
+}
+a[href$='.pdf'], a[href ^="mailto:"],  a[class ="popup"],a[href$='.doc'], a[href$='.xls'], a[target ='_blank'], a[href$='.ps'] {
+	padding-left	: 18px;
+	display		: inline-block;
+}
+a[href$='.doc'] { 
+	background	: transparent url(icon_set.gif) no-repeat 0 0;
+}
+a[target ='_blank'] {
+	background	: transparent url(icon_set.gif) no-repeat 0 -20px;
+}
+a[href ^="mailto:"] {
+	background	: transparent url(icon_set.gif) no-repeat 0 -38px;
+}
+a[href$='.pdf'] { 
+	background	: transparent url(icon_set.gif) no-repeat 0 -54px;
+}
+a[href$='.ps'] { 
+	background	: transparent url(icon_set.gif) no-repeat 0 -76px;
+}
+a[href$='.xls'] { 
+	background	: transparent url(icon_set.gif) no-repeat 0 -99px;
+}
+
+
+input#uname, input#upass{
+    margin		: 10px;
+    margin-bottom	: 2px;
+    width		: 200px;
+    padding-left	: 22px;
+}
+#submit_forum {
+    margin		: 10px;
+    margin-bottom	: 2px;
+    width		: 222px;
+}
+
+input#uname {
+    background		: #fff url(icon_set.gif) no-repeat 0 -149px;
+}
+
+input#upass {
+    background		: #fff url(icon_set.gif) no-repeat 0 -175px;
+}
+
+input#search {
+    background		: #fff url(icon_set.gif) no-repeat 0 -118px;
+    margin		: 10px;
+    margin-bottom	: 2px;
+    padding-left	: 22px;
+    width		: 120px;
+}
+
+
+img.bordered, img.gallery {
+    border		: 1px solid #dedede;
+    margin		: 10px;
+    padding		: 7px;
+    float		: right;
+}
+img.gallery {
+
+    text-align		: center;
+}
+#content a.noborder {
+    border		: 0;
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.important {
+    border		: 1px solid #f00;
+    background		: #fcc;
+    width		: 400px;
+    margin		: auto;
+    margin-bottom	: 12px;
+}
+
+.submit {
+    display		: block;
+}
+.right_info {
+    border		: 1px solid #0a0;
+    background		: #6f6 url(gif/right_fade.gif);
+}
+.wrong_info {
+    border		: 1px solid #f00;
+    background-color	: #faa;
+}
+.success {
+    color		: green;
+    background-color	: #6f6;
+}
+.failed {
+    color		: red;
+    background-color	: #faa;
+}
+#news #rss {
+    border		: 1px solid;
+    border-color	: #fc9 #630 #330 #f96;
+    padding		: 0 3px;
+    font		: bold 10px veranda, sans-serif;
+    color		: #fff;
+    background		: #f60;
+    text-decoration	: none;
+    margin		: 3px;
+    height		: 20px;
+    float		: right;
+}
+
+#nav, #nav li {
+    padding		: 0;
+    margin		: 0;
+}
+
+#nav {
+    position		: absolute;
+    top			: 180px;
+    left		: 40px;
+    width		: 894px;
+    height		: 28px;
+    list-style		: none;
+    border		: 2px solid #dedede;
+    border-left		: 4px solid #dedede;
+    border-top		: 0;
+    z-index		: 5;
+    font		: normal 12px sans-serif;
+    background-image	: url(back.png);
+
+}
+#nav span a, #nav span a:hover {
+    color		: #fff;
+    font		: normal 12px 'Trebuchet MS','Arial';
+    text-decoration	: none;
+    line-height		: 32px;
+    font-weight		: bold;
+}
+
+#nav li {
+    display		: inline; 
+    float		: left;
+    font-weight		: bold;
+    position		: relative;
+    text-align		: center;
+    width		: 33%;
+    z-Index		: 1;
+    color		: #fff;
+    line-height		: 32px;
+}
+#nav li ul {
+    display		: none;
+    position		: absolute; 
+    padding		: 0;
+    margin		: 0;
+    border		: 1px solid #aeaeae;
+    border-top		: 0;
+}
+#nav li a {
+    text-decoration	: none;
+    height		: 25px;
+    padding		: 0 20px;
+}
+
+#nav li:hover ul, li.over ul {			
+    display		: block; 
+}
+
+#nav li ul li {
+    background		: #fff;
+    width		: 100%;
+    text-align		: left;
+    padding-left	: 25px;
+    border		: 1px solid #fff;
+}
+
+#nav li:hover, #nav li.over {
+    background		: url(right.png) no-repeat right center;
+}
+
+#nav li:hover ul li:hover, #nav li.over ul li.over {
+    border		: 1px solid #00a;
+    background		: #cdcdcd url(blank.gif) no-repeat right center;
+}
+
+#nav li span{
+    display		: block;
+    line-height		: 32px;
+    float		: none; 
+}
+#nav li:hover span {
+    background		: url(left.png) no-repeat left center;
+}
+#nav li ul li.title {
+    background		: #cdcdcd;
+    color		: #000;
+}
+#nav li:hover ul li.title:hover {
+    border		: 1px solid #cdcdcd;
+}
+#nav li ul li a {
+    color		: #404040;
+}
+#nav li ul li a:visited {
+    color		: #707070;
+    font-style		: italic;
+}
+
+
+/* Lightbox */
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto;}
+#lightbox a img{ border: none; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+ 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pie>
+  <!-- <message bg_color="#CCBB00" text_color="#FFFFFF"><![CDATA[You can broadcast any message to chart from data XML file]]></message> -->
+  <slice title="Googlebot" pull_out="true">1058</slice>
+  <slice title="Yahoo Slurp">675</slice>
+  <slice title="Feedfetcher-Google">212</slice>
+  <slice title="MSNBot" url="http://www.interactivemaps.org" description="Click on the slice to find more information" alpha="50">139</slice>
+</pie>

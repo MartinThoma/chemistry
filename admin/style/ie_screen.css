@@ -1,0 +1,46 @@
+#banner {
+    height		: 140px;
+}
+#box {top		: 72px;}
+#lang {top		: 82px;}
+#news {top		: 92px;}
+#forum {top		: 102px;}
+
+#nav li {
+    width		: 33%;
+}
+
+#nav li ul {
+    top			: 0px;
+    left		: 0px;
+    background-color	: #fff;
+}
+
+
+#nav li > ul {
+    top			: auto;	
+}
+#nav {
+    z-index		: 1;
+}
+
+#news ul li {
+    list-style		: url(list_ie.gif);
+}
+
+ul li {
+    list-style		: url(li_ie.gif);
+}
+#content p {
+    z-index		: 2;
+}
+#nav li {
+    z-index		: 100;
+}
+#nav li ul li {
+    white-space		: nowrap;
+}
+
+#content input {
+    margin-right	: 200px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pie>
+  <!-- <message bg_color="#CCBB00" text_color="#FFFFFF"><![CDATA[You can broadcast any message to chart from data XML file]]></message> -->
+  <slice title="MS Internet Explorer" pull_out="true">41144</slice>
+  <slice title="Firefox">34643</slice>
+  <slice title="Opera">1855</slice>
+  <slice title="Safari">1369</slice>
+  <slice title="Google Chrome">339</slice>
+  <slice title="Sonstige oder Unbekannt">781</slice>
+</pie>

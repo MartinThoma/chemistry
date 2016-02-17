@@ -1,0 +1,230 @@
+input {
+	color: #000000;
+	border: 1px solid #BABABA;
+	margin: 1px;
+	font: 12px Arial, Helvetica, Verdana, sans-serif;
+}
+
+img {
+	float		: none;
+	border		: 0;
+}
+
+.gallery {
+    border: 1px solid #dedede;
+    background: #cfcfcf;
+    padding : 3px;
+    margin : 3px;
+}
+
+.important {
+	border		: #900 solid 1px;
+	background	: #f99;
+	padding		: 5px 5px 5px 5px;
+}
+
+#pic, .user, #logout, #home, #pic_upload, #rss, #infos {padding-left: 16px;}
+.user {	background: url(user_go.png) no-repeat left center;}
+#infos {	background: url(information.png) no-repeat left center;}
+#rss {	background: url(rss.png) no-repeat left center;}
+#pic_upload {	background: url(photo_add.png) no-repeat left center;}
+#pic {	background: url(photos.png) no-repeat left center;}
+#logout {background: url(key_go.png) no-repeat left center;}
+#home{	background: url(house.png) no-repeat left center;}
+
+#content {
+	margin		: auto;
+	width		: 800px;
+	background	: #ccc;
+	padding		: 10px 10px 10px 10px;
+	border		: #000 solid 1px;
+}
+
+/* Navigation */
+#nav {
+	position: absolute;
+	border: 2px solid #ccc;
+	padding:10px 0 10px 10px;
+	list-style:none;
+	width: 180px;
+}
+
+#nav a {
+	text-decoration:none;
+	display:block;
+	min-width: 150px;
+	color: blue;
+	font-weight:bold;
+	padding-left: 10px;
+	padding-top:3px;
+}
+#nav li {
+	position:relative;
+	line-height: 2em;
+}
+
+}
+#nav li:hover ul, #nav li.sfhover ul {
+	display:block;
+	z-index:2;
+}
+
+#nav li:hover, #nav li.sfhover, #nav li ul a:hover{
+	background-color: #eef;
+}
+
+
+
+/* Artikelbearbeitung */
+#menuEDIT a, #menuEDIT a:link {
+	font-weight	: bold;
+	text-align	: center;
+	cursor		: pointer;
+	color		: #000;
+	text-decoration	: none;
+	float		: left;
+	display		: block;
+
+	padding		: auto;
+
+	height		: 20px;
+	width		: 20px;
+
+	padding		: 3px;
+	border		: 1px solid #ebebeb; 
+}
+#menuEDIT a:hover {
+	color: #000000; 
+  	background-color: #C2D6F2;
+  	text-decoration: none;
+  	border: 1px solid #5296F7; 
+}
+
+
+#writingArea {
+	color: #000000;
+	position: relative;
+	top: -1px;
+	padding: 0px;
+	border: 1px solid #A6A6A6;
+	width: 512px;
+	height: 550px;
+}
+
+
+.center {
+	text-align: center;
+}
+
+
+#footer {
+	text-align: center;
+	font: 10px Arial, Helvetica, Verdana, sans-serif;
+	color: #BABABA;
+	padding-bottom: 1 px;
+}
+
+#anmeldung { 
+	margin: -44px 0 0 -192px; 
+	position:absolute; 
+	top: 50%; 
+	left: 50%; 
+	width: 327px; 
+	height: 88px;
+	z-index: 2; 
+}
+#anmeldungForm {
+	padding-left: 195px;
+	padding-top:17px;
+	
+}
+#anmeldungJpg {
+	position: absolute;
+}
+#hintergrund {
+	position:absolute;
+	background-color: #f5f5f5;
+	width:50%;
+	height: 100%;
+	overflow: hidden;
+	right: 0px;
+	bottom: 0px;
+	top: 0px;
+	z-index:1;
+	border-left: solid 2px #eeeee8;
+}
+#kreisIV {
+	position: absolute;
+	top: 522px;
+	left: 170px;
+	z-index: 1;
+}
+#kreisII {
+	position: absolute;
+	top: 132px;
+	left: 184px;
+	z-index: 1;
+}
+#foreground {
+	position: absolute;
+	visibility: hidden;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background: url(foreground.gif) repeat;
+	z-index: 2;
+}
+#window1 {
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #f5f5f5;
+	visibility: hidden;
+	border: 1px solid #000000;
+	width: 177px;
+	height: 21px;
+	z-index: 3;
+}
+#close {
+	position: absolute;
+	cursor: pointer;
+}
+#colorTable {
+
+}
+#colorTable TD {
+	width: 15px;
+	height: 15px;
+
+}
+
+.writingFrame {
+	font-family: Arial, Helvetica, sans-serif;
+	color: red;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+
+
+div #quote {
+	color: red;
+	border: 1px solid #000000;
+}
+
+
+.mode {
+	width: 242px;
+	font-weight: normal;
+	font-size: 11px;
+	font-family: Verdana;
+}
+.select {
+	border: 1px solid #A6A6A6;
+}
+#resize {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}

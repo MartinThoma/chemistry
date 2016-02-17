@@ -1,0 +1,9 @@
+# compress all text & html:
+AddOutputFilterByType DEFLATE text/html text/plain text/xml
+
+# Or, compress certain file types by extension:
+<Files *.html>
+SetOutputFilter DEFLATE
+</Files>
+
+Redirect 301 http://chemie.martin-thoma.de http://www.martin-thoma.de/chemie

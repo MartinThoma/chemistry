@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pie>
+  <!-- <message bg_color="#CCBB00" text_color="#FFFFFF"><![CDATA[You can broadcast any message to chart from data XML file]]></message> -->
+  <slice title="Windows" pull_out="true">73227</slice>
+  <slice title="Linux">5075</slice>
+  <slice title="Macintosh">1606</slice>
+  <slice title="Unbekannt">1602</slice>
+  <slice title="BSD">2</slice>
+</pie>
