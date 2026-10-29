@@ -5,10 +5,10 @@ if($_POST['betreff'] != ''){
     $grund	= $_POST['grund'];
     $text	= $_POST['text'];
     $email	= $_POST['email'];
-    $text	.= "\n\n Email: ".$email;
+    $text	.= "\n\nE-Mail: ".$email;
     if(strlen($text) > 7){
 	if(mail('themoosemind@googlemail.com', "Ch: $grund - $betreff", $text)){echo 'Vielen Dank f&uuml;r Ihre Nachricht.';}
-	else {echo 'Die Nachricht konnte leider nicht versendet werden. Bitte versuchen sie es in drei Tagen nochmals.';}
+	else {echo 'Die Nachricht konnte leider nicht versendet werden. Bitte versuchen Sie es in drei Tagen noch einmal.';}
     } else {echo "Etwas mehr d&uuml;rfen Sie schon schreiben.";}
 }
 

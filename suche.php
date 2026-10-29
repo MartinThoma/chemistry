@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Websitesuche</title>
     <meta name="description" content="Website durchsuchen"/>
     <link type="image/x-icon" href="style/favicon.ico" rel="shortcut icon" />
@@ -36,7 +36,7 @@
 <form method="post" id="Formular1">
   <fieldset>
     <legend>Websitesuche</legend>
-    <input type="input" id="suche" name="search" value=""/>
+    <input type="text" id="suche" name="search" value=""/>
     <label for="suche">Suche nach</label>
     <input type="submit" value="Website durchsuchen"/>
   </fieldset>

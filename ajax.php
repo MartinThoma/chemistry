@@ -3,7 +3,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Chemie lernen</title>
     <meta name="description" content="Lernen Sie Summenformeln - schnell und einfach"/>
     <link type="image/x-icon" href="style/favicon.ico" rel="shortcut icon" />
@@ -60,7 +60,7 @@ form {
     <script>
 function hol_summenformel() {
   var teste = $('Formular1').serialize();
-  if(teste.length == 0){alert('Sie müssen zumindest einen Bereich auswählen!');}
+  if(teste.length == 0){alert('Sie mÃŒssen zumindest einen Bereich auswÃ€hlen!');}
   else {
   var myAjax = new Ajax.Request(
     "js/test.php",
@@ -111,9 +111,9 @@ temp = b.split(';');
     <input type="checkbox" id="saeuren" name="cat" value="3"/>
     <label for="saeuren">S&auml;uren und Basen (H<sub>2</sub>SO<sub>4</sub>, HCl, NH<sub>4</sub>, ...)</label>
   </fieldset>
-<p>Bitte geben Sie den Namen der Verbindung / des Ions an. Gro&szlig; / Kleinschreibung spielt keine Rolle.</p>
+<p>Bitte geben Sie den Namen der Verbindung / des Ions an. Gro&szlig;- und Kleinschreibung spielt keine Rolle.</p>
  <div id="status" class="">&nbsp;</div>
- <div id="output">Klicke auf 'Nächstes' um zu starten</div>
+ <div id="output">Klicke auf 'NÃ€chstes' um zu starten</div>
  <input type="text" id="answer" />
  <input type="button" value="N&auml;chstes" onClick="hol_summenformel()">
 
